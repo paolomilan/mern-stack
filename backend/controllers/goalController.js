@@ -18,7 +18,7 @@ const setGoals = asyncHandler(async (req, res) => {
         // How to add custom message
         // res.status(400).json({message: 'Please add a text field'})
         res.status(400)
-        throw new Error('Please add a text field')
+        throw new Error('Please add a text field ')
 
     }
 
